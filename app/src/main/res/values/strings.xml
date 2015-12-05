@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoGame</string>
+    <string name="welcome">Se te mostrará una serie de preguntas sobre la posición de los paises. Pulsa en las chinchetas para responder.</string>
+    <string name="start">¡Empezar!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="aciertos">Aciertos: </string>
+	<string name="fallos">Fallos: </string>
+	<string name="contadorAciertos">0</string>
+	<string name="contadorFallos">0</string>
+	<string name="selec_cont">Seleccionar Continente</string>
+	<string name="africa">Africa</string>
+	<string name="asia">Asia</string>
+	<string name="america">América</string>
+	<string name="europa">Europa</string>
+	<string name="oceania">Oceanía</string>
+	<string name="todos">Todos</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/selec_continente"
+          android:title="@string/selec_cont"
+          android:icon="@android:drawable/ic_menu_mapmode"
+          android:showAsAction="ifRoom|withText" >
+        <menu>
+            <group android:id="@+id/group_continentes"
+                android:checkableBehavior="single">
+                
+                <item android:id="@+id/item_todos"        
+             	android:title="@string/todos" />
+        		<item android:id="@+id/item_africa"        
+             	android:title="@string/africa" />
+        		<item android:id="@+id/item_america"
+              	android:title="@string/america" />
+        		<item android:id="@+id/item_asia"
+              	android:title="@string/asia" />
+        		<item android:id="@+id/item_europa"
+              	android:title="@string/europa" />
+        		<item android:id="@+id/item_oceania"
+              	android:title="@string/oceania" />
+    		</group>
+        </menu>
+    </item>
+</menu>
+
